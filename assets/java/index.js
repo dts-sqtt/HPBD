@@ -89,7 +89,15 @@ function createLight(a) {
     var container = document.querySelector(".backgroundParty");
     const blurLv = [2, 4];
     const count = a;
-    const allDefaultColor = ["red", "lime", "yellow", "orange", "blue"];
+    const allDefaultColor = [
+        "red",
+        "lime",
+        "yellow",
+        "orange",
+        "blue",
+        "green",
+        "white",
+    ];
 
     for (var i = 0; i < count; i++) {
         var randomLeft = 0;
@@ -98,14 +106,14 @@ function createLight(a) {
         randomTop = Math.floor((Math.random() * height) / 2);
         var color = "white";
         var blur = Math.floor(Math.random() * 2);
-        var widthEle = Math.floor(Math.random() * 5) + 15;
-        var moveTime = Math.floor(Math.random() * 4) + 4;
+        var widthEle = Math.floor(Math.random() * 7) + 5;
+        var moveTime = Math.floor(Math.random() * 7) + 5;
 
         var div = document.createElement("div");
         div.classList.add = "snow";
         div.style.position = "absolute";
         div.style.backgroundColor =
-            allDefaultColor[Math.floor(Math.random() * 5)];
+            allDefaultColor[Math.floor(Math.random() * 7)];
         div.style.borderRadius =
             Math.floor(Math.random() * 10 + 10).toString() + "px";
 
