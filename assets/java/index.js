@@ -1,14 +1,15 @@
 const contentLetterSrart_actived =
-    "Hãy nói gì đó ở đây trước khi người ấy mở bức thư nhé."; //Lời mở đầu cho bức thư
-const mainContentLetter = "Gửi lời nhắn nhủ đến người bạn bạn yêu thương."; //Nội dung của bức thư
+    "Hãy nói gì đó ở đây trước khi người ấy mở bức thư nhé.Hãy nói gì đó ở đây trước khi người ấy mở bức thư nhé.Hãy nói gì đó ở đây trước khi người ấy mở bức thư nhé."; //Lời mở đầu cho bức thư
+const mainContentLetter =
+    "Gửi lời nhắn nhủ đến người bạn bạn yêu thương. Gửi lời nhắn nhủ đến người bạn bạn yêu thương.Gửi lời nhắn nhủ đến người bạn bạn yêu thương.Gửi lời nhắn nhủ đến người bạn bạn yêu thương."; //Nội dung của bức thư
 
 // Gắn 1 đường link ảnh bất kì
 let imgStart = document.querySelector(".myAI"); //Hình ảnh xuất hiện trong lời mở đầu của bức thư
-imgStart.src = "./img/cute-young-boy-kid-wearing-vest-and-hat-free-png.png";
+imgStart.src = "./img/chibi.png";
 
 // Gắn 1 link ảnh bất kì
 let imgLetter = document.querySelector(".img");
-imgLetter.src = "./img/b4bbdb54b7152338d7143cb444a77f09.png"; //Hình ảnh xuất hiện trong nội dung của bức thư sau khi bức thư được viết ra hết
+imgLetter.src = "./img/S.jpg"; //Hình ảnh xuất hiện trong nội dung của bức thư sau khi bức thư được viết ra hết
 
 const splitContentLetterSrart_actived = contentLetterSrart_actived.split("");
 
