@@ -1,7 +1,7 @@
-const contentLetterSrart_actived =
-    "Hãy nói gì đó ở đây trước khi người ấy mở bức thư nhé.Hãy nói gì đó ở đây trước khi người ấy mở bức thư nhé.Hãy nói gì đó ở đây trước khi người ấy mở bức thư nhé."; //Lời mở đầu cho bức thư
-const mainContentLetter =
-    "Gửi lời nhắn nhủ đến người bạn bạn yêu thương. Gửi lời nhắn nhủ đến người bạn bạn yêu thương.Gửi lời nhắn nhủ đến người bạn bạn yêu thương.Gửi lời nhắn nhủ đến người bạn bạn yêu thương."; //Nội dung của bức thư
+let contentLetterSrart_actived =
+    "Bạn Lan Anh ơi… Chúc mừng sinh nhật bạn iu nhớ…! Thế là bằng tuổi mình rồi đó ^ ^"; //Lời mở đầu cho bức thư
+let mainContentLetter =
+    "Chúc bạn Lan Anh khum chỉ mỗi ngày sinh nhật vui vẻ, mà ngày nào cũng đều vui vẻ nhớ ^^ . Chúc bạn tuổi mới thật nhiều sức khỏe, khum bị ốm vặt nữa @@. Hi vọng những điều bạn mong muốn, đều sẽ đạt được. Mong rằng những điều tốt đẹp nhất thế giới sẽ đến với bạn ><. HAPPY BIRTHDAY BẠN IU ^^"; //Nội dung của bức thư
 
 // Gắn 1 đường link ảnh bất kì
 let imgStart = document.querySelector(".myAI"); //Hình ảnh xuất hiện trong lời mở đầu của bức thư
